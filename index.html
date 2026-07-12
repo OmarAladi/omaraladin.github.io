@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Alaa El-Deen — AI Automation Engineer</title>
+<meta name="description" content="Omar Alaa El-Deen — AI Automation Engineer building multi-agent systems, RAG pipelines, and production automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav class="nav">
+  <a href="#top" class="nav__mark">O.A</a>
+  <div class="nav__links">
+    <a href="#work">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="mailto:omaraladin20@gmail.com" class="nav__cta">Say hello</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero__text">
+    <p class="eyebrow">// ai automation engineer</p>
+    <h1 class="hero__title">
+      I turn manual<br>
+      operations into<br>
+      <span class="hero__title-accent">autonomous systems.</span>
+    </h1>
+    <p class="hero__sub">
+      Three years designing multi-agent architectures, production-grade RAG pipelines,
+      and LLM-driven workflows that replace repetitive human work with orchestration
+      that runs on its own — and knows when to ask for help.
+    </p>
+    <div class="hero__actions">
+      <a href="#projects" class="btn btn--primary">See the systems</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+    <div class="hero__meta">
+      <span>Cairo, Egypt</span>
+      <span class="dot">·</span>
+      <span>Available for automation &amp; agentic AI work</span>
+    </div>
+  </div>
+
+  <div class="hero__graph" aria-hidden="true">
+    <svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" class="orchestration">
+      <!-- connecting paths -->
+      <path id="p-in-router" class="edge" d="M70,260 C140,260 150,260 210,260" />
+      <path id="p-router-rag" class="edge" d="M250,245 C300,190 330,150 380,120" />
+      <path id="p-router-book" class="edge" d="M250,260 C300,260 330,260 380,260" />
+      <path id="p-router-vis" class="edge" d="M250,275 C300,330 330,370 380,400" />
+      <path id="p-rag-out" class="edge" d="M420,120 C470,150 500,190 540,255" />
+      <path id="p-book-out" class="edge" d="M420,260 C470,260 500,260 540,260" />
+      <path id="p-vis-out" class="edge" d="M420,400 C470,370 500,330 540,265" />
+
+      <!-- flowing packets -->
+      <circle class="packet" r="4"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0s"><mpath href="#p-in-router"/></animateMotion></circle>
+      <circle class="packet packet--rag" r="3.5"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0.6s"><mpath href="#p-router-rag"/></animateMotion></circle>
+      <circle class="packet packet--book" r="3.5"><animateMotion dur="2s" repeatCount="indefinite" begin="0.6s"><mpath href="#p-router-book"/></animateMotion></circle>
+      <circle class="packet packet--vis" r="3.5"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0.6s"><mpath href="#p-router-vis"/></animateMotion></circle>
+      <circle class="packet packet--rag" r="3.5"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.4s"><mpath href="#p-rag-out"/></animateMotion></circle>
+      <circle class="packet packet--book" r="3.5"><animateMotion dur="1.8s" repeatCount="indefinite" begin="1.4s"><mpath href="#p-book-out"/></animateMotion></circle>
+      <circle class="packet packet--vis" r="3.5"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.4s"><mpath href="#p-vis-out"/></animateMotion></circle>
+
+      <!-- nodes -->
+      <g class="node node--io" transform="translate(40,260)">
+        <circle r="26"/>
+        <text y="46" class="node__label">manual_task</text>
+      </g>
+
+      <g class="node node--router" transform="translate(230,260)">
+        <circle r="30"/>
+        <text y="4" class="node__glyph">⇄</text>
+        <text y="50" class="node__label">router_agent</text>
+      </g>
+
+      <g class="node node--tool" transform="translate(400,120)">
+        <circle r="22"/>
+        <text y="48" class="node__label">rag_retrieval</text>
+      </g>
+      <g class="node node--tool" transform="translate(400,260)">
+        <circle r="22"/>
+        <text y="48" class="node__label">booking_tool</text>
+      </g>
+      <g class="node node--tool" transform="translate(400,400)">
+        <circle r="22"/>
+        <text y="48" class="node__label">vision_ocr</text>
+      </g>
+
+      <g class="node node--io" transform="translate(560,260)">
+        <circle r="26"/>
+        <text y="46" class="node__label">automated_output</text>
+      </g>
+    </svg>
+  </div>
+</header>
+
+<main>
+
+  <section class="about" id="about">
+    <div class="about__portrait">
+      <div class="portrait">
+        <img src="omar-portrait.jpg" alt="Omar Alaa El-Deen speaking at a tech conference">
+      </div>
+    </div>
+    <div class="about__intro">
+      <p class="section-kicker">Objective</p>
+      <p class="about__text">
+        I design and ship intelligent automation — multi-agent systems, copilots, and
+        production RAG pipelines that connect LLMs to real backend APIs. My focus is
+        making the handoff between "manual process" and "automated workflow" invisible:
+        clean orchestration, grounded retrieval, and code that a team can actually
+        maintain after I'm gone.
+      </p>
+    </div>
+    <div class="about__facts">
+      <div class="fact">
+        <span class="fact__num">8</span>
+        <span class="fact__label">manual workflows automated<br>in a single billing &amp; collections redesign</span>
+      </div>
+      <div class="fact">
+        <span class="fact__num">3</span>
+        <span class="fact__label">years shipping production<br>AI &amp; automation systems</span>
+      </div>
+      <div class="fact">
+        <span class="fact__num">2nd</span>
+        <span class="fact__label">place, Belmasry Tech Hackathon<br>— Tashkeel diacritization app</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline" id="work">
+    <p class="section-kicker">Experience</p>
+    <h2 class="section-title">Where the automation happened</h2>
+
+    <ol class="tl">
+      <li class="tl__item">
+        <div class="tl__time">Feb 2026 — Present</div>
+        <div class="tl__body">
+          <h3>AI Automation Engineer <span class="tl__org">· COB Solution</span></h3>
+          <p>Designing multi-agent systems and copilots on LangGraph, LangChain, and
+            CrewAI to replace manual billing, eligibility, and collections workflows.
+            Built production RAG pipelines on Qdrant and ChromaDB with BGE / Instructor
+            embeddings, and wired conversational agents into backend REST APIs.</p>
+          <div class="tl__tags">
+            <span>LangGraph</span><span>CrewAI</span><span>RAG</span><span>Qdrant</span><span>REST APIs</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl__item">
+        <div class="tl__time">Nov 2024 — Jan 2026</div>
+        <div class="tl__body">
+          <h3>AI Engineer <span class="tl__org">· Electro Pi Company</span></h3>
+          <p>Built an invoice-processing system for pharmaceutical documents using
+            high-accuracy OCR, fine-tuned vision-LLMs with LoRA and Unsloth, and shipped
+            a voice-to-voice financial assistant on the Gemini Live API. Ran real-time
+            safety monitoring and quality control on factory lines with YOLO and OpenCV.</p>
+          <div class="tl__tags">
+            <span>OCR</span><span>LoRA fine-tuning</span><span>YOLO</span><span>Gemini Live</span><span>FastAPI</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl__item">
+        <div class="tl__time">2023 — Present</div>
+        <div class="tl__body">
+          <h3>Freelance AI Engineer</h3>
+          <p>Built a multi-modal teacher &amp; student monitoring system (pose, gaze,
+            emotion, speech) and an ancient-manuscript classification model for
+            historical Arabic documents, using custom-trained CV pipelines.</p>
+          <div class="tl__tags">
+            <span>YOLO-Pose</span><span>Gaze tracking</span><span>Emotion recognition</span><span>Custom ML</span>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="projects" id="projects">
+    <p class="section-kicker">Selected Projects</p>
+    <h2 class="section-title">Systems, not scripts</h2>
+
+    <div class="cards">
+      <a class="card" href="https://github.com/OmarAladi" target="_blank" rel="noopener">
+        <div class="card__tag">multi-agent orchestrator</div>
+        <h3>AI Chatbot Agent &amp; Orchestrator</h3>
+        <p>Production-ready conversational agent with smart routing, a RAG-powered
+          knowledge base, SQLite-backed booking, and human handoff — built on a
+          LangGraph state machine exposed through FastAPI.</p>
+        <span class="card__link">View on GitHub →</span>
+      </a>
+
+      <a class="card" href="https://github.com/OmarAladi" target="_blank" rel="noopener">
+        <div class="card__tag">nl → sql</div>
+        <h3>Chat with Your Database</h3>
+        <p>Lets anyone query a database in plain language. Fine-tuned LLMs handle
+          schema mapping and query understanding before translating intent into SQL.</p>
+        <span class="card__link">View on GitHub →</span>
+      </a>
+
+      <a class="card" href="https://github.com/OmarAladi" target="_blank" rel="noopener">
+        <div class="card__tag">document automation</div>
+        <h3>General Invoicing System</h3>
+        <p>Automates extraction of item IDs, quantities, tax, and totals from invoices
+          using high-accuracy OCR — removing a manual line-entry step entirely.</p>
+        <span class="card__link">View on GitHub →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="stack" id="stack">
+    <p class="section-kicker">Capabilities</p>
+    <h2 class="section-title">The stack behind the systems</h2>
+
+    <div class="stack__grid">
+      <div class="stack__group">
+        <h4>Generative AI &amp; LLMs</h4>
+        <div class="tags">
+          <span>Prompt Engineering</span><span>Tool / Function Calling</span>
+          <span>Multi-step Reasoning</span><span>Voice AI</span>
+          <span>Vision-LLMs</span><span>LoRA Fine-tuning</span><span>llama.cpp</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h4>Agentic AI &amp; Orchestration</h4>
+        <div class="tags">
+          <span>LangChain</span><span>LangGraph</span><span>CrewAI</span>
+          <span>Multi-Agent Systems</span><span>AI Copilots</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h4>RAG &amp; Knowledge Systems</h4>
+        <div class="tags">
+          <span>Production RAG</span><span>BGE / Instructor / Gemini Embeddings</span>
+          <span>Qdrant</span><span>ChromaDB</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h4>Integration &amp; Automation</h4>
+        <div class="tags">
+          <span>Workflow Automation</span><span>RPA Concepts</span>
+          <span>REST APIs</span><span>System Integrations</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h4>Programming &amp; Backend</h4>
+        <div class="tags">
+          <span>Python</span><span>FastAPI</span><span>Streamlit</span>
+          <span>Pydantic</span><span>SQL</span><span>Docker</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h4>Computer Vision &amp; NLP</h4>
+        <div class="tags">
+          <span>OCR</span><span>Object Detection</span><span>Speech-to-Text</span>
+          <span>Diacritization</span><span>OpenCV</span><span>Ultralytics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education">
+    <div class="education__col">
+      <p class="section-kicker">Education</p>
+      <h3>Bachelor of Computer Engineering</h3>
+      <p class="muted">Faculty of Engineering, Helwan University — Sep 2018 – May 2023</p>
+    </div>
+    <div class="education__col">
+      <p class="section-kicker">Certifications</p>
+      <h3>Generative AI Program</h3>
+      <p class="muted">DEPI, Ministry of Communications, Egypt — Oct 2023 – May 2024. LLMs, RAG architectures, NLP, and computer vision, with hands-on fine-tuning and deployment projects.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <p class="section-kicker">Contact</p>
+  <h2 class="contact__title">Got a manual workflow<br>worth automating?</h2>
+  <a href="mailto:omaraladin20@gmail.com" class="contact__email">omaraladin20@gmail.com</a>
+  <div class="contact__links">
+    <a href="tel:+201507115520">+20 150 711 5520</a>
+    <span class="dot">·</span>
+    <a href="https://www.linkedin.com/in/omar-aladin" target="_blank" rel="noopener">LinkedIn</a>
+    <span class="dot">·</span>
+    <a href="https://github.com/OmarAladi" target="_blank" rel="noopener">GitHub</a>
+    <span class="dot">·</span>
+    <a href="https://kaggle.com/omaraladdin" target="_blank" rel="noopener">Kaggle</a>
+  </div>
+  <p class="footer__note">Cairo, Egypt — built by Omar, one node at a time.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
