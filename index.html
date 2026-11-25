@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Omar Alaa — AI Automation Engineer</title>
+  <meta name="description" content="I turn business problems into AI systems that save time and money: agents, RAG, computer vision and automation, from first conversation to production.">
+  <meta property="og:title" content="Omar Alaa — AI Automation Engineer">
+  <meta property="og:description" content="I turn business problems into AI systems that save time and money.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#13110E">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="ar" href="ar/index.html">
+  <script>
+    // Before paint: apply the saved theme, and send returning visitors to the language they picked.
+    try {
+      var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t);
+      var l = localStorage.getItem("lang"), alt = l && l !== document.documentElement.lang && document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+      if (alt) location.replace(alt.href + location.hash);
+    } catch (e) {}
+  </script>
+  <link rel="preload" href="assets/fonts/ibm-plex-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">Omar Alaa <span>AI Automation</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <a class="lang-link" href="ar/index.html" hreflang="ar" lang="ar">عربي</a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+      </button>
+      <a class="btn" href="Omar_Alaa_Eldeen_CV.pdf" download>Download CV</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ======================================================= HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <p class="hero-kicker">AI Automation Engineer in Cairo, working with teams in Egypt, the Gulf and North America</p>
+    <h1 data-reveal>I turn business problems into AI systems that save time and money.</h1>
+    <div class="hero-row">
+      <p class="hero-sub">From the first conversation to production: I find where your hours and budget go, then build the agents and automations that win them back.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Let's talk</a>
+        <a class="btn" href="#work">See my work</a>
+      </div>
+    </div>
+
+    <figure class="system" id="system" aria-label="Diagram: four business problems pass through AI agents with a human approval step and come out as results">
+      <!-- Drawn by assets/js/main.js so it can switch between a wide and a tall layout. -->
+      <svg id="system-svg" role="img" aria-hidden="true"></svg>
+      <figcaption class="caption">Real problems from projects below, and what the systems changed. Every public-facing action passes a human first.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ======================================================= STATS -->
+<section class="stats" aria-label="At a glance">
+  <div class="wrap">
+    <ul>
+      <li><span class="stat-num" data-count="3" data-suffix="+">3+</span><span class="stat-label">Years building AI systems</span></li>
+      <li><span class="stat-num" data-count="10" data-suffix="+">10+</span><span class="stat-label">Projects running in production</span></li>
+      <li><span class="stat-num" data-count="5">5</span><span class="stat-label">Countries: Egypt, Saudi Arabia, UAE, US, Canada</span></li>
+      <li><span class="stat-num">2nd</span><span class="stat-label">Place in a national hackathon</span></li>
+      <li><span class="stat-num">AOU</span><span class="stat-label">Graduation projects evaluator, Arab Open University</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================================================= FEATURED WORK -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-reveal>Selected work</h2>
+      <p>Each project starts with a business problem. Scroll through what was broken, what I built, and what changed.</p>
+    </div>
+
+    <!-- ---------- 1. AI Marketing Agent ---------- -->
+    <article class="story" data-story>
+      <div class="story-intro">
+        <div>
+          <span class="story-index">US healthcare group with 30+ branches</span>
+          <h3>AI Marketing Agent</h3>
+        </div>
+        <p>An AI system that handles the repetitive side of digital marketing across Local SEO, SEO, social media and paid ads.</p>
+      </div>
+
+      <div class="story-steps">
+        <div class="step" data-step="1">
+          <h4>The problem</h4>
+          <p>Before writing any code, I shadowed the marketing team to see where their hours were going.</p>
+          <p>Four problems stood out: listing changes across 30+ branches went unnoticed, reviews and messages piled up, SEO issues were found late, and ad budget kept going to campaigns that didn't pay off.</p>
+        </div>
+        <div class="step" data-step="2">
+          <h4>What I built</h4>
+          <p>Four modules, with a human approving anything before it goes public.</p>
+          <ul>
+            <li><strong>Local SEO:</strong> instant alerts when a branch's Google Business Profile changes, review replies drafted in the brand's voice, and one dashboard per branch.</li>
+            <li><strong>SEO:</strong> weekly meta-tag fixes from Search Console data, new articles from competitors' keyword gaps, and content fixes for pages losing rank.</li>
+            <li><strong>Social media:</strong> replies to Facebook and Instagram comments and DMs, hiding complaints and personal info until the team reviews them.</li>
+            <li><strong>Paid ads:</strong> reads Meta and Google Ads results and recommends what to pause or scale, against the team's own benchmarks.</li>
+          </ul>
+        </div>
+        <div class="step" data-step="3">
+          <h4>What changed</h4>
+          <ul class="impact-list">
+            <li><span class="n">25%+</span><span>of ad spend saved by pausing underperforming campaigns</span></li>
+            <li><span class="n">Weekly</span><span>a new ready-to-review article, up from aiming for 4 a month</span></li>
+            <li><span class="n">30+</span><span>branch listings watched, with changes caught right away</span></li>
+            <li><span class="n">All</span><span>reviews get a drafted reply, so none are missed</span></li>
+          </ul>
+          <p class="stack">LangGraph multi-agent, FastAPI, React, ChromaDB RAG, Gemini, Meta Graph and Marketing APIs, Google Ads, Search Console, Google Business Profile API, BrightLocal, SEMrush</p>
+          <a class="btn story-link" href="work/ai-marketing-agent.html">Read the case study</a>
+        </div>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="stage-frame">
+          <svg viewBox="0 0 600 600" data-stage>
+            <g class="mk-graph">
+              <path class="d-line" d="M244 136 C268 166 266 204 272 234"/>
+              <path class="d-line" d="M356 136 C332 166 334 204 328 234"/>
+              <path class="d-line" d="M244 464 C268 434 266 396 272 366"/>
+              <path class="d-line" d="M356 464 C332 434 334 396 328 366"/>
+              <path class="d-line mk-wire" d="M244 136 C268 166 266 204 272 234"/>
+              <path class="d-line mk-wire" d="M356 136 C332 166 334 204 328 234"/>
+              <path class="d-line mk-wire" d="M244 464 C268 434 266 396 272 366"/>
+              <path class="d-line mk-wire" d="M356 464 C332 434 334 396 328 366"/>
+
+              <g class="mk-hub"><circle class="d-box" cx="300" cy="300" r="70"/>
+                <text class="d-text-strong" x="300" y="298" text-anchor="middle">AI agents</text>
+                <text class="d-text" x="300" y="320" text-anchor="middle" font-size="13">human approves</text></g>
+
+              <g class="mk-node"><rect class="d-box" x="24" y="60" width="220" height="76" rx="10"/>
+                <text class="d-text-strong" x="44" y="92">Local SEO</text>
+                <text class="mk-issue" x="44" y="116">30+ listings, no alerts</text>
+                <text class="mk-sol" x="44" y="116">Instant change alerts</text></g>
+              <g class="mk-node"><rect class="d-box" x="356" y="60" width="220" height="76" rx="10"/>
+                <text class="d-text-strong" x="376" y="92">SEO</text>
+                <text class="mk-issue" x="376" y="116">Problems found late</text>
+                <text class="mk-sol" x="376" y="116">Weekly fixes, new articles</text></g>
+              <g class="mk-node"><rect class="d-box" x="24" y="464" width="220" height="76" rx="10"/>
+                <text class="d-text-strong" x="44" y="496">Social media</text>
+                <text class="mk-issue" x="44" y="520">Comments and DMs pile up</text>
+                <text class="mk-sol" x="44" y="520">Replies in the brand's voice</text></g>
+              <g class="mk-node"><rect class="d-box" x="356" y="464" width="220" height="76" rx="10"/>
+                <text class="d-text-strong" x="376" y="496">Paid ads</text>
+                <text class="mk-issue" x="376" y="520">Budget on weak campaigns</text>
+                <text class="mk-sol" x="376" y="520">Pause or scale, with reasons</text></g>
+            </g>
+            <g class="mk-result">
+              <text class="big-num" x="300" y="300" text-anchor="middle" font-size="112">25%+</text>
+              <text class="d-text-strong" x="300" y="345" text-anchor="middle" font-size="19">of ad spend saved</text>
+              <text class="d-text" x="300" y="380" text-anchor="middle">plus a ready article every week</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </article>
+
+    <!-- ---------- 2. Sharia Base ---------- -->
+    <article class="story" data-story>
+      <div class="story-intro">
+        <div>
+          <span class="story-index">Client in Saudi Arabia, live in production</span>
+          <h3>Sharia Base</h3>
+        </div>
+        <p>Upload a financial contract, get back a compliant one: checked against Islamic jurisprudence and national law.</p>
+      </div>
+
+      <div class="story-steps">
+        <div class="step" data-step="1">
+          <h4>The problem</h4>
+          <p>Checking a financial contract for Sharia compliance means weighing each clause against the four schools of thought, contemporary fiqh of financial transactions and the rulings of major Islamic bodies, then checking it again against national law.</p>
+          <p>Contracts run from one page to more than ten, and the review takes specialist knowledge. The users range from banks and companies to individuals contracting with each other.</p>
+        </div>
+        <div class="step" data-step="2">
+          <h4>What I built</h4>
+          <p>An Agentic RAG system over a large knowledge base: references from the four schools, contemporary fiqh works on finance, publications of Islamic organizations, and works of senior scholars.</p>
+          <ul>
+            <li><strong>Validate:</strong> confirms the upload is a contract, and a financial one.</li>
+            <li><strong>Extract:</strong> reads PDFs or images and splits the contract into clauses.</li>
+            <li><strong>Classify:</strong> flags clauses with potential compliance issues.</li>
+            <li><strong>Analyze:</strong> agents pinpoint each issue and the basis for the ruling.</li>
+          </ul>
+        </div>
+        <div class="step" data-step="3">
+          <h4>What changed</h4>
+          <ul class="impact-list">
+            <li><span class="n">Rewrite</span><span>flagged clauses are corrected and a revised contract is produced</span></li>
+            <li><span class="n">Basis</span><span>every flagged clause comes with the reasoning behind the ruling</span></li>
+            <li><span class="n">10+ pp</span><span>contracts from one page to more than ten, in one pass</span></li>
+          </ul>
+          <p>My part: co-designed the system and its features, and built the data pipeline into the vector database, the validation and classification layers, and several of the analysis and correction agents.</p>
+          <p class="stack">Agentic RAG, LangGraph, LangChain, Qdrant, Gemini, OCR</p>
+          <a class="btn story-link" href="work/sharia-base.html">Read the case study</a>
+        </div>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="stage-frame">
+          <svg viewBox="0 0 600 600" data-stage>
+            <rect class="d-box" x="130" y="60" width="300" height="440" rx="10"/>
+            <text class="d-text-strong" x="158" y="104">Financial contract</text>
+            <line class="d-line" x1="158" y1="120" x2="402" y2="120"/>
+            <rect class="sh-clause" x="158" y="146" width="236" height="10" rx="5"/>
+            <rect class="sh-clause" x="158" y="186" width="200" height="10" rx="5"/>
+            <rect class="sh-clause bad" x="158" y="226" width="226" height="10" rx="5"/>
+            <rect class="sh-clause" x="158" y="266" width="180" height="10" rx="5"/>
+            <rect class="sh-clause" x="158" y="306" width="236" height="10" rx="5"/>
+            <rect class="sh-clause bad" x="158" y="346" width="206" height="10" rx="5"/>
+            <rect class="sh-clause" x="158" y="386" width="216" height="10" rx="5"/>
+            <rect class="sh-clause" x="158" y="426" width="150" height="10" rx="5"/>
+            <rect class="sh-scan d-amber" x="130" y="128" width="300" height="2"/>
+
+            <g class="sh-flag bad-tag"><line class="d-line d-amber-stroke" x1="438" y1="231" x2="452" y2="231"/><text class="big-num" x="458" y="236" font-size="14">Non-compliant</text></g>
+            <g class="sh-flag bad-tag"><line class="d-line d-amber-stroke" x1="438" y1="351" x2="452" y2="351"/><text class="big-num" x="458" y="356" font-size="14">Non-compliant</text></g>
+            <g class="sh-flag fixed-tag"><line class="d-line" x1="438" y1="231" x2="452" y2="231"/><text class="d-text-strong" x="458" y="236" font-size="14">Rewritten</text></g>
+            <g class="sh-flag fixed-tag"><line class="d-line" x1="438" y1="351" x2="452" y2="351"/><text class="d-text-strong" x="458" y="356" font-size="14">Rewritten</text></g>
+
+            <text class="d-text sh-basis" x="280" y="548" text-anchor="middle">Each change comes with its basis in fiqh and law</text>
+          </svg>
+        </div>
+      </div>
+    </article>
+
+    <!-- ---------- 3. Vision Quality Control ---------- -->
+    <article class="story" data-story>
+      <div class="story-intro">
+        <div>
+          <span class="story-index">Two factories: a global tea brand and a tyre manufacturer</span>
+          <h3>Vision Quality Control</h3>
+        </div>
+        <p>Real-time camera inspection that catches defects the moment they happen, not at the end of the line.</p>
+      </div>
+
+      <div class="story-steps">
+        <div class="step" data-step="1">
+          <h4>The problem</h4>
+          <p>On a tea packaging line, a person stood at the conveyor checking every box by eye: dates, batch codes, open or crushed boxes.</p>
+          <p>At a tyre factory, punctured or folded rubber only showed up in the final stages, and by then the tyres had to be scrapped.</p>
+        </div>
+        <div class="step" data-step="2">
+          <h4>What I built</h4>
+          <ul>
+            <li><strong>Tea line:</strong> checks that production date, expiry date and batch code are printed correctly and in the right place, and that the box isn't open or damaged. Defective boxes are pushed off the belt automatically.</li>
+            <li><strong>Tyre line:</strong> detects punctured or folded rubber at an early, critical stage of production.</li>
+          </ul>
+        </div>
+        <div class="step" data-step="3">
+          <h4>What changed</h4>
+          <ul class="impact-list">
+            <li><span class="n">Line</span><span>manual inspection replaced, production faster, human error removed</span></li>
+            <li><span class="n">Early</span><span>tyre defects caught before scrap losses that cost thousands of pounds a day</span></li>
+          </ul>
+          <p class="stack">Ultralytics YOLO (detection, segmentation, tracking), OpenCV, OCR, small vision-language models, FastAPI</p>
+          <a class="btn story-link" href="work/vision-quality-control.html">Read the case study</a>
+        </div>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="stage-frame">
+          <svg viewBox="0 0 600 600" data-stage>
+            <line class="d-line" x1="300" y1="34" x2="300" y2="70"/>
+            <rect class="d-box" x="255" y="70" width="90" height="50" rx="8"/>
+            <circle class="d-line" cx="300" cy="95" r="12"/>
+            <polygon class="qc-beam" points="282,120 318,120 352,274 248,274"/>
+
+            <rect class="d-box" x="30" y="330" width="540" height="26" rx="13"/>
+            <line class="qc-belt-move" x1="48" y1="343" x2="552" y2="343"/>
+
+            <g><rect class="qc-box" x="55" y="274" width="70" height="56" rx="4"/><rect class="d-line" x="67" y="290" width="34" height="5"/><rect class="d-line" x="67" y="303" width="22" height="5"/></g>
+            <g><rect class="qc-box" x="160" y="274" width="70" height="56" rx="4"/><rect class="d-line" x="172" y="290" width="34" height="5"/><rect class="d-line" x="172" y="303" width="22" height="5"/></g>
+            <g class="qc-bad"><rect class="qc-box" x="265" y="274" width="70" height="56" rx="4"/><rect class="d-line" x="281" y="286" width="34" height="5" transform="rotate(-9 298 288)"/><rect class="d-line" x="277" y="306" width="22" height="5"/></g>
+            <g><rect class="qc-box" x="370" y="274" width="70" height="56" rx="4"/><rect class="d-line" x="382" y="290" width="34" height="5"/><rect class="d-line" x="382" y="303" width="22" height="5"/></g>
+            <g><rect class="qc-box" x="475" y="274" width="70" height="56" rx="4"/><rect class="d-line" x="487" y="290" width="34" height="5"/><rect class="d-line" x="487" y="303" width="22" height="5"/></g>
+
+            <g class="qc-bad-tag"><line class="d-line d-amber-stroke" x1="340" y1="262" x2="372" y2="236"/><text class="big-num" x="378" y="234" font-size="15">Misprinted date</text></g>
+
+            <text class="d-text qc-late" x="300" y="430" text-anchor="middle">Before: defects found by eye, or at the end of the line</text>
+
+            <g class="qc-bin"><rect class="d-line" x="250" y="430" width="100" height="80" rx="6" stroke-dasharray="5 5"/><text class="d-text" x="300" y="534" text-anchor="middle" font-size="13">Rejected</text></g>
+            <text class="d-text-strong qc-result" x="300" y="574" text-anchor="middle">Caught on the line, not at the end</text>
+          </svg>
+        </div>
+      </div>
+    </article>
+
+    <!-- ---------- 4. Invoice Processing ---------- -->
+    <article class="story" data-story>
+      <div class="story-intro">
+        <div>
+          <span class="story-index">Pharmacies</span>
+          <h3>Pharmacy Invoice Processing</h3>
+        </div>
+        <p>1,500+ supplier invoices a month per pharmacy, processed in minutes.</p>
+      </div>
+
+      <div class="story-steps">
+        <div class="step" data-step="1">
+          <h4>The problem</h4>
+          <p>Every month, someone in each pharmacy had to read, calculate and enter more than 1,500 supplier invoices by hand.</p>
+        </div>
+        <div class="step" data-step="2">
+          <h4>What I built</h4>
+          <p>OCR and structured extraction pull item IDs, quantities, tax and totals from each invoice, then calculate and record everything automatically.</p>
+        </div>
+        <div class="step" data-step="3">
+          <h4>What changed</h4>
+          <ul class="impact-list">
+            <li><span class="n">Minutes</span><span>for 1,500+ invoices a month, instead of typing each one by hand</span></li>
+            <li><span class="n">99%+</span><span>extraction accuracy</span></li>
+          </ul>
+          <p class="stack">High-accuracy OCR, structured data extraction, FastAPI</p>
+          <a class="btn story-link" href="work/invoice-processing.html">Read the case study</a>
+        </div>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="stage-frame">
+          <svg viewBox="0 0 600 600" data-stage>
+            <g transform="rotate(-12 300 270)"><g class="iv-sheet"><rect x="215" y="160" width="170" height="220" rx="6"/></g></g>
+            <g transform="rotate(-6 300 270)"><g class="iv-sheet"><rect x="215" y="160" width="170" height="220" rx="6"/></g></g>
+            <g transform="rotate(1 300 270)"><g class="iv-sheet"><rect x="215" y="160" width="170" height="220" rx="6"/></g></g>
+            <g transform="rotate(7 300 270)"><g class="iv-sheet"><rect x="215" y="160" width="170" height="220" rx="6"/></g></g>
+            <g class="iv-sheet">
+              <rect x="215" y="160" width="170" height="220" rx="6"/>
+              <line class="d-line" x1="235" y1="190" x2="320" y2="190"/>
+              <line class="d-line" x1="235" y1="220" x2="365" y2="220"/>
+              <line class="d-line" x1="235" y1="240" x2="365" y2="240"/>
+              <line class="d-line" x1="235" y1="260" x2="365" y2="260"/>
+              <line class="d-line" x1="235" y1="280" x2="340" y2="280"/>
+              <line class="d-line" x1="300" y1="340" x2="365" y2="340"/>
+            </g>
+            <g class="iv-count">
+              <text class="d-text-strong" x="300" y="448" text-anchor="middle" font-size="22">1,500+ invoices a month</text>
+              <text class="d-text" x="300" y="476" text-anchor="middle">read and typed by hand</text>
+            </g>
+
+            <g class="iv-table">
+              <text class="d-text" x="120" y="160">Item</text>
+              <text class="d-text" x="300" y="160">Qty</text>
+              <text class="d-text" x="370" y="160">Tax</text>
+              <text class="d-text" x="440" y="160">Total</text>
+              <line class="d-line" x1="110" y1="176" x2="490" y2="176"/>
+              <g class="iv-row"><rect class="d-line" x="120" y="196" width="130" height="8" rx="4"/><rect class="d-line" x="300" y="196" width="22" height="8" rx="4"/><rect class="d-line" x="370" y="196" width="34" height="8" rx="4"/><rect class="d-amber" x="440" y="196" width="46" height="8" rx="4"/></g>
+              <g class="iv-row"><rect class="d-line" x="120" y="232" width="104" height="8" rx="4"/><rect class="d-line" x="300" y="232" width="16" height="8" rx="4"/><rect class="d-line" x="370" y="232" width="30" height="8" rx="4"/><rect class="d-amber" x="440" y="232" width="40" height="8" rx="4"/></g>
+              <g class="iv-row"><rect class="d-line" x="120" y="268" width="140" height="8" rx="4"/><rect class="d-line" x="300" y="268" width="22" height="8" rx="4"/><rect class="d-line" x="370" y="268" width="34" height="8" rx="4"/><rect class="d-amber" x="440" y="268" width="48" height="8" rx="4"/></g>
+              <g class="iv-row"><rect class="d-line" x="120" y="304" width="90" height="8" rx="4"/><rect class="d-line" x="300" y="304" width="16" height="8" rx="4"/><rect class="d-line" x="370" y="304" width="28" height="8" rx="4"/><rect class="d-amber" x="440" y="304" width="38" height="8" rx="4"/></g>
+              <g class="iv-row"><rect class="d-line" x="120" y="340" width="122" height="8" rx="4"/><rect class="d-line" x="300" y="340" width="22" height="8" rx="4"/><rect class="d-line" x="370" y="340" width="34" height="8" rx="4"/><rect class="d-amber" x="440" y="340" width="44" height="8" rx="4"/></g>
+              <g class="iv-row"><rect class="d-line" x="120" y="376" width="112" height="8" rx="4"/><rect class="d-line" x="300" y="376" width="16" height="8" rx="4"/><rect class="d-line" x="370" y="376" width="30" height="8" rx="4"/><rect class="d-amber" x="440" y="376" width="42" height="8" rx="4"/></g>
+              <line class="d-line" x1="110" y1="408" x2="490" y2="408"/>
+            </g>
+
+            <g class="iv-result">
+              <text class="big-num" x="300" y="300" text-anchor="middle" font-size="96">Minutes</text>
+              <text class="d-text-strong" x="300" y="345" text-anchor="middle" font-size="19">for 1,500+ invoices, at 99%+ accuracy</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ======================================================= MORE WORK -->
+<section class="section" id="more" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-reveal>More work</h2>
+    </div>
+    <ul class="more">
+      <li>
+        <h3>AI Voice Sales Agent<small>Real estate company, Saudi Arabia (proof of concept)</small></h3>
+        <p>Customers talk to the agent by voice. It asks about their needs and recommends the available unit that fits best.</p>
+        <p class="stack">Voice-to-voice LLM, Gemini Live API</p>
+      </li>
+      <li>
+        <h3>Smart Truck Flow Control<small>Large beverage factory</small></h3>
+        <p>Cameras count the trucks being loaded and let a new truck into the yard only when a spot opens up. It ended the yard congestion and replaced a manual gate.</p>
+        <p class="stack">YOLO detection and tracking, scheduling, FastAPI</p>
+      </li>
+      <li>
+        <h3>Classroom Intelligence<small>School in the UAE</small></h3>
+        <p>Detects which students are attentive, engaged or asleep, and evaluates each lesson against the school's own criteria for teachers.</p>
+        <p class="stack">YOLO-Pose, face, emotion and gaze recognition, speech, Gemini, FastAPI</p>
+      </li>
+      <li>
+        <h3>Advix<small>Startups</small></h3>
+        <p>A financial analyst for startups that can't afford one yet: it analyzes financial performance and produces a detailed report.</p>
+        <p class="stack">LLMs, financial analysis pipeline</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================================================= SERVICES -->
+<section class="section" id="services" style="padding-top:0">
+  <div class="wrap services-grid">
+    <div>
+      <h2 data-reveal>If it can be automated, I can build it.</h2>
+      <p class="lead">Any AI or automation idea, taken from the first conversation to a system running in production.</p>
+      <div class="built">
+        <h3>Some of what I've built</h3>
+        <ul>
+          <li>Agents that answer customers, comments and reviews</li>
+          <li>Marketing and SEO automation</li>
+          <li>Document and contract analysis</li>
+          <li>Computer vision for factories</li>
+          <li>Voice AI agents</li>
+        </ul>
+      </div>
+    </div>
+    <div class="discovery">
+      <h3>It starts with discovery</h3>
+      <p>I map your process, estimate cost and time, and give you options before anything gets built.</p>
+      <ol>
+        <li>A call to understand the work and where it hurts</li>
+        <li>A written scope with cost and timeline</li>
+        <li>More than one route, when there is one</li>
+      </ol>
+      <a class="btn btn-primary" href="#contact" style="margin-top:24px">Book a discovery call</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= HOW I WORK -->
+<section class="section" id="process" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-reveal>How I work</h2>
+      <p>The same six steps on every project, so the system solves the right problem and pays for itself.</p>
+    </div>
+    <div class="process">
+      <span class="process-rail" aria-hidden="true"><i></i></span>
+      <ol>
+      <li><span class="process-num">1</span><h3>Understand the business</h3><p>I sit with the people doing the work to see where time and money actually go.</p></li>
+      <li><span class="process-num">2</span><h3>Define requirements</h3><p>I turn needs into clear, measurable requirements.</p></li>
+      <li><span class="process-num">3</span><h3>Options, cost and timeline</h3><p>More than one route when there is one, each priced and timed up front.</p></li>
+      <li><span class="process-num">4</span><h3>R&amp;D and prototype</h3><p>I test what actually works before we commit.</p></li>
+      <li><span class="process-num">5</span><h3>Build and lead the team</h3><p>Clean, modular systems, with everyone aligned on the goal.</p></li>
+      <li><span class="process-num">6</span><h3>Deliver and measure</h3><p>Ship to production, then measure the impact.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= ABOUT -->
+<section class="section" id="about" style="padding-top:0">
+  <div class="wrap about-grid">
+    <div class="portrait"><img src="assets/img/omar.webp" alt="Omar Alaa presenting with a microphone" width="900" height="1125" loading="lazy"></div>
+    <div class="about-text">
+      <h2 data-reveal>Most AI projects fail before the first line of code.</h2>
+      <p class="body">They solve the wrong problem, or cost more than they save. I start with the business. I turn what the client needs into clear requirements, estimate cost and timeline up front, and lay out more than one option when there is one. My R&amp;D background means I test what actually works before we build, and I lead the team until the solution is in production.</p>
+      <dl class="facts">
+        <div><dt>Now</dt><dd>AI Automation Engineer, COB Solution</dd></div>
+        <div><dt>Before</dt><dd>AI Engineer, Electro Pi</dd></div>
+        <div><dt>Freelance</dt><dd>Since 2023, clients in five countries</dd></div>
+        <div><dt>Education</dt><dd>B.Sc. Computer Engineering, Helwan University</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= RECOGNITION -->
+<section class="section" id="recognition" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-reveal>Recognition</h2>
+    </div>
+    <div class="honors">
+      <article class="honor">
+        <figure><img src="assets/img/hackathon-minister.webp" alt="Omar and his team receiving certificates with Egypt's Minister of Communications" width="1400" height="999" loading="lazy"></figure>
+        <div class="honor-body">
+          <h3>2nd place nationwide, Belmasry Tech Hackathon</h3>
+          <p class="meta">2024, Ministry of Communications and IT</p>
+          <p>A national competition for apps that serve the Arabic language. Our project, Tashkeel, adds diacritics to Arabic from typed text, an image or voice. We reached the final among 17+ teams, and the project was chosen to be presented to the Minister of Communications at the results conference. It drew interest from print proofreaders, media professionals and the team at CBC.</p>
+        </div>
+      </article>
+      <article class="honor honor-aou">
+        <figure><img src="assets/img/aou-evaluator.webp" alt="Omar with the dean at the Arab Open University graduation projects expo" width="1000" height="1333" loading="lazy"></figure>
+        <div class="honor-body">
+          <h3>Graduation projects evaluator</h3>
+          <p class="meta">2026, Arab Open University</p>
+          <p>Evaluated students' graduation projects.</p>
+        </div>
+      </article>
+    </div>
+    <div class="depi">
+      <strong>Generative AI Program, DEPI</strong>
+      <span>Ministry of Communications, 2023 to 2024</span>
+    </div>
+
+    <div class="quotes">
+      <blockquote>
+        <p>Extremely hardworking, curious, and always willing to dive deep into problems to find the best solution… I highly recommend Omar to any team looking for a dedicated, reliable, and thoughtful professional.</p>
+        <footer><strong>Khadidja Mekiri</strong>, Data Scientist</footer>
+      </blockquote>
+      <blockquote>
+        <p>A reliable and skilled professional who consistently delivers high-quality work… proactive, quick to learn, and brings a positive attitude to the team.</p>
+        <footer><strong>Mohamed Saleh</strong>, AI Full-Stack Engineer</footer>
+      </blockquote>
+    </div>
+    <p class="quotes-note">From recommendations on <a href="https://www.linkedin.com/in/omar-aladin" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  </div>
+</section>
+
+<!-- ======================================================= CONTACT -->
+<section class="section contact" id="contact" style="padding-top:0">
+  <div class="wrap">
+    <h2 data-reveal>Have an idea? Let's see what AI can do for it.</h2>
+    <p class="lead">Tell me what's slowing your business down, and I'll come back with options.</p>
+    <div class="contact-grid">
+      <form class="form" id="contact-form" novalidate>
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="f-idea">Your idea</label><textarea id="f-idea" name="message" required placeholder="What takes your team the most time today?"></textarea></div>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+      <ul class="channels">
+        <li><a href="https://wa.me/201507115520" target="_blank" rel="noopener"><span class="name">WhatsApp</span><span class="handle">+20 150 711 5520</span><span class="go" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 10 10 4M5 4h5v5"/></svg></span></a></li>
+        <li><a href="mailto:omaraladin20@gmail.com"><span class="name">Email</span><span class="handle">omaraladin20@gmail.com</span><span class="go" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 10 10 4M5 4h5v5"/></svg></span></a></li>
+        <li><a href="https://www.linkedin.com/in/omar-aladin" target="_blank" rel="noopener"><span class="name">LinkedIn</span><span class="handle">in/omar-aladin</span><span class="go" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 10 10 4M5 4h5v5"/></svg></span></a></li>
+        <li><a href="Omar_Alaa_Eldeen_CV.pdf" download><span class="name">Download CV</span><span class="handle">PDF</span><span class="go" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 2v8M3.5 6.5 7 10l3.5-3.5M2 12h10"/></svg></span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>© 2026 Omar Alaa El-Deen</span>
+    <nav aria-label="Profiles">
+      <a href="https://github.com/OmarAladi" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.kaggle.com/omaraladdin" target="_blank" rel="noopener">Kaggle</a>
+      <a href="https://www.linkedin.com/in/omar-aladin" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
